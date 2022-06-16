@@ -324,7 +324,7 @@ if __name__ == '__main__':
         elif 'change wallpaper' in query:
             ctypes.windll.user32.SystemParametersInfoW(20,
                                                        0,
-                                                       "C:\\Users\\\zig_zag\\Downloads\\wallpaper1",
+                                                       "C:\\Users\\\zig_za\\Downloads\\wallpaper1",
                                                        0)
             speak("Background changed succesfully")
 
@@ -332,7 +332,7 @@ if __name__ == '__main__':
         elif 'revert back to original wallpaper' in query:
             ctypes.windll.user32.SystemParametersInfoW(20,
                                                        0,
-                                                       "C:\\Users\\\zig_zag\\Downloads\\wallpaper2",
+                                                       "C:\\Users\\\zig_za\\Downloads\\wallpaper2",
                                                        0)
 
         elif 'yup good' in query:
